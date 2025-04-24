@@ -1,2 +1,2 @@
-# sumulasstj
-JurisAtualiza - Extensão Chrome para Atualizações Jurídicas Inteligentes
+# JurisAtualiza - Extensão Chrome para Atualizações Jurídicas Inteligentes
+
