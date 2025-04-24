@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Súmulas STJ por Artigo",
+  "version": "1.0",
+  "description": "Extensão que detecta artigos de lei e mostra súmulas STJ relacionadas",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sumulas_mapeadas_stj.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
